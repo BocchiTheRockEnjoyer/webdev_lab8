@@ -1,36 +1,10 @@
-nav {
+#main-navbar {
   background-color: blue;
-  text-align: center; 
+  overflow: hidden;
+}
+
+#navbar-container {
+  float: left;
+  width: 100%;
   position: relative;
-  overflow: hidden;  
-  width: 100%; 
-  list-style-type: none; 
-  margin: 0; 
-  padding: 0; 
 }
-
-nav a {
-  color: #fff;
-  display: inline-block; 
-  padding: 10px 20px;  
-  text-decoration: none; 
-}
-
-aside {
-  background-color: red;
-  list-style-type: none;
-  position: fixed;
-  text-align: center; 
-  right: 0; 
-  height: 100%; 
-  width: 20%;   
-  padding: 15px 0; 
-}
-
-aside a {
-  color: #fff; 
-  display: block; 
-  text-decoration: none; 
-}
-
-/* GitHub plz load */
