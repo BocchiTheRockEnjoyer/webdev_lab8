@@ -19,22 +19,6 @@
   position: relative;
 }
 
-#main-navbar ul {
-  float: left;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  left: 50%;
-  position: relative;
-}
-
-#main-navbar ul li {
-  float: left;
-  display: block;
-  right: 50%;
-  position: relative;
-}
-
 #main-navbar ul li a {
   color: #fff;
   text-decoration: none;
@@ -44,4 +28,48 @@
 
 #main-navbar ul li a:hover {
   background-color: #000;
+}
+
+#main-navbar ul li {
+  float: left;
+  display: block;
+  right: 50%;
+  position: relative;
+}
+
+#main-navbar ul {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  left: 50%;
+  position: relative;
+}
+
+
+
+
+#sidebar {
+  background-color: red;
+  height: 100%;
+  width: 20%;
+  right:0%;
+  position: fixed;
+}
+
+#sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 0;
+}
+
+#sidebar ul li a:hover {
+  background-color: #000;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
 }
