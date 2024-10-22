@@ -8,3 +8,25 @@
   width: 100%;
   position: relative;
 }
+
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#main-navbar ul {
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  left: 50%;
+  position: relative;
+}
+
+#main-navbar ul li {
+  float: left;
+  display: block;
+  right: 50%;
+  position: relative;
+}
