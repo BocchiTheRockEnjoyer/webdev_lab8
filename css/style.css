@@ -1,3 +1,7 @@
+#onpage {
+  text-decoration: underline overline;
+}
+
 #main-navbar {
   background-color: blue;
   overflow: hidden;
@@ -29,4 +33,15 @@
   display: block;
   right: 50%;
   position: relative;
+}
+
+#main-navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+}
+
+#main-navbar ul li a:hover {
+  background-color: #000;
 }
