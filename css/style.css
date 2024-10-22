@@ -1,0 +1,18 @@
+nav {
+  background-color: blue;
+  text-align: center; 
+  position: relative;
+  overflow: hidden;  
+  width: 100%; 
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+}
+
+nav a {
+  color: #fff;
+  display: inline-block; 
+  padding: 10px 20px;  
+  text-decoration: none; 
+}
+
