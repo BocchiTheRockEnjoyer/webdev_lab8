@@ -16,3 +16,19 @@ nav a {
   text-decoration: none; 
 }
 
+aside {
+  background-color: red;
+  list-style-type: none;
+  position: fixed;
+  text-align: center; 
+  right: 0; 
+  height: 100%; 
+  width: 20%;   
+  padding: 15px 0; 
+}
+
+aside a {
+  color: #fff; 
+  display: block; 
+  text-decoration: none; 
+}
